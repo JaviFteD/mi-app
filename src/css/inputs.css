@@ -1,0 +1,118 @@
+.form{
+    margin: 0 auto;
+    width: 320px;
+    height: 216px;
+    border-radius: 28px;
+    left: 20px;
+    opacity: 1;
+    background: var(--noname6) 0% 0% no-repeat padding-box;
+    box-shadow: -8px -8px 20px var(--white3);
+  }
+  
+  .form .cedula i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-cold9);
+    position: absolute;
+    z-index: 500;
+    top:16px;
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    font-size: 24px;
+  }
+  
+  
+  .cedula{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cedula input::placeholder{
+    color: var(--blue-cold);
+  }
+  
+  .cedula input{
+  
+    color: var(--blue-cold);
+    padding-left: 50px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    width: 250px;
+    height: 56px;
+    border-radius: 18px;
+    font-size: 20px;
+    background-color: var(--noname);
+    box-shadow: inset 0px 0px 10px #4676C32C;
+    
+  }
+  
+  .politica{
+    display: flex;
+    justify-content: center;
+    margin: 28px 15px;
+    
+  }
+  .politica  a{
+    color: var(--cc-blue2);
+    
+  }
+  .check{
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  
+  .check input{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #00B0F4;
+    background-color: #00B0F4;
+    
+  
+  }
+  
+  .check .fa-circle{
+    width: 24px;
+    height: 24px;
+  }
+  
+  .p{
+    color: var(--gray-cold9);
+    line-height: 1.6em;
+    width: 264px;
+    height: 48px;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0px;
+  }
+  
+  .container-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px 20px 0px;
+  }
+  
+  .boton input{
+    border: none;
+    color: var(--WHITE);
+    width: 320px;
+    height: 48px;
+    background-color:var(--gray-cold3);
+    border-radius: 32px;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  
+  

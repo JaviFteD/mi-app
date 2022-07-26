@@ -1,0 +1,23 @@
+.position{
+    display: flex;
+    justify-content: center;
+    margin: 24px 108px 0px 108px;
+  }
+  
+  .logo{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+    box-shadow: 8px 8px 16px var(--noname5);
+  }
+  
+  .logo .img1{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

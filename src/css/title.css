@@ -1,0 +1,32 @@
+
+.text{
+    margin: 24px 0px;
+    display: flex;
+    font-size: 16px;
+    color: var(--gray-cold9);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .container-title .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--blue-cold9);
+  }
+  
+  .pasos{
+    height: 35px;
+    width: 190px;
+    background: transparent url('../img/Trazado\ 342.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0 auto;
+    padding-bottom: 28px;
+  }
+  .container-title{
+    padding-bottom: 28px;
+  }
